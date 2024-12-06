@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background-image: url("cosmos.jpg"); /* Путь к вашему изображению космоса */
+            background-size: cover;
+            color: white; /* Цвет текста */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Занимает всю высоту экрана */
+            text-align: center; /* Выравнивание текста по центру */
+        }
+
+        h1 {
+            font-size: 5em; /* Размер заголовка */
+            margin-bottom: 20px; /* Отступ снизу */
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #4CAF50; /* Цвет кнопки */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Привет</h1>
+    <button onclick="window.location.href='https://t.me/ckalpeI'">Мой ТГ</button>
+</body>
+</html>
